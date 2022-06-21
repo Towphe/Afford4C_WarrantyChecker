@@ -1,2 +1,4 @@
+# ignore obj and env
 obj
 bin
+.vs
