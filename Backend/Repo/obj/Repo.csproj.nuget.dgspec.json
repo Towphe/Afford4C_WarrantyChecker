@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\casti\\OneDrive\\Documents\\Programming Files\\Projects\\Warranty Checker\\Backend\\Repo\\Repo.csproj": {}
+    "C:\\Users\\casti\\OneDrive\\Documents\\Programming Files\\Projects\\WarrantyChecker\\Afford4C_WarrantyChecker\\Backend\\Repo\\Repo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\casti\\OneDrive\\Documents\\Programming Files\\Projects\\Warranty Checker\\Backend\\Repo\\Repo.csproj": {
+    "C:\\Users\\casti\\OneDrive\\Documents\\Programming Files\\Projects\\WarrantyChecker\\Afford4C_WarrantyChecker\\Backend\\Repo\\Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casti\\OneDrive\\Documents\\Programming Files\\Projects\\Warranty Checker\\Backend\\Repo\\Repo.csproj",
+        "projectUniqueName": "C:\\Users\\casti\\OneDrive\\Documents\\Programming Files\\Projects\\WarrantyChecker\\Afford4C_WarrantyChecker\\Backend\\Repo\\Repo.csproj",
         "projectName": "Repo",
-        "projectPath": "C:\\Users\\casti\\OneDrive\\Documents\\Programming Files\\Projects\\Warranty Checker\\Backend\\Repo\\Repo.csproj",
+        "projectPath": "C:\\Users\\casti\\OneDrive\\Documents\\Programming Files\\Projects\\WarrantyChecker\\Afford4C_WarrantyChecker\\Backend\\Repo\\Repo.csproj",
         "packagesPath": "C:\\Users\\casti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casti\\OneDrive\\Documents\\Programming Files\\Projects\\Warranty Checker\\Backend\\Repo\\obj\\",
+        "outputPath": "C:\\Users\\casti\\OneDrive\\Documents\\Programming Files\\Projects\\WarrantyChecker\\Afford4C_WarrantyChecker\\Backend\\Repo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\casti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,38 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
