@@ -8,6 +8,7 @@ using Repo;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppUserDbContext>(opts => opts.UseNpgsql("Host=localhost;Database=WarrantyCheckerAppUserDB;Username=postgres;Password=pingu"));
+builder.Services.AddDbContext<WarrantyCheckerAppDBContext>(opts => opts.UseNpgsql("Host=localhost;Database=WarrantyCheckerAppDB;Username=postgres;Password=pingu"));
 builder.Services.AddIdentityCore<AppUser>(opts =>
 {
     // NOTE: Change this later on to make app more secure
