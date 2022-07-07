@@ -15,8 +15,10 @@ namespace Repo
         public string Name { get; set; }
         public string Variant { get; set; }
         public string Sku { get; set; }
-        public DateOnly DateAdded { get; set; }
-        public DateOnly DateUpdated { get; set; }
+        public string Warrantyperiod { get; set; }
+        public short? Warrantyunit { get; set; }
+        public DateOnly Dateadded { get; set; }
+        public DateOnly Lastupdated { get; set; }
 
         public virtual Distributor Distributor { get; set; }
         public virtual ICollection<Entry> Entries { get; set; }
