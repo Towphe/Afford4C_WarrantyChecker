@@ -103,6 +103,8 @@ namespace Repo
 
                 entity.Property(e => e.Dateadded).HasColumnName("dateadded");
 
+                entity.Property(e => e.Dateupdated).HasColumnName("dateupdated");
+
                 entity.Property(e => e.Email)
                     .IsRequired()
                     .HasMaxLength(100)
@@ -111,6 +113,8 @@ namespace Repo
                 entity.Property(e => e.Firstname)
                     .HasMaxLength(100)
                     .HasColumnName("firstname");
+
+                entity.Property(e => e.Isapproved).HasColumnName("isapproved");
 
                 entity.Property(e => e.Lastname)
                     .HasMaxLength(100)
