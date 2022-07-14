@@ -20,6 +20,9 @@ namespace Repo
         public short? Postalcode { get; set; }
         public DateOnly Dateadded { get; set; }
         public DateOnly Lastupdated { get; set; }
+        public bool? Isapproved { get; set; }
+        public bool? Dateupdated { get; set; }
+        public string AssessmentMessage { get; set; }
 
         public virtual Product Product { get; set; }
     }
